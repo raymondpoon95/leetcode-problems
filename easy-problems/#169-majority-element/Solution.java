@@ -21,6 +21,8 @@ class Solution {
 //         }
 //         return maxEntry.getKey();
         
+
+// return number in the middle because the majority element will always have to be MORE THAN half the length of the array
         Arrays.sort(nums);
         return nums[nums.length/2];
         
